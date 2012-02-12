@@ -439,10 +439,12 @@
     <string-array name="preferred_network_mode_choices_lte">
         <item>LTE / CDMA</item>
         <item>CDMA</item>
+        <item>GSM only</item>
     </string-array>
     <string-array name="preferred_network_mode_values_lte" translatable="false">
         <item>"7"</item>
         <item>"4"</item>
+        <item>"1"</item>
     </string-array>
     <!-- Mobile network settings screen, data enabling checkbox name -->
     <string name="data_enabled">Data enabled</string>
