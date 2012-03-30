@@ -292,7 +292,6 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
       Settings.Secure.putInt(mApp.getContentResolver(), Settings.Secure.PREFERRED_NETWORK_MODE, network);
     }
 
-
     private boolean showCallScreenInternal(boolean specifyInitialDialpadState,
                                            boolean initialDialpadState) {
         if (!PhoneApp.sVoiceCapable) {
